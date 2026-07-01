@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moeda💵</title>
+    <link rel="stylesheet" href="money.css">
+    <script src="money.js"></script>
+</head>
+<body>
+<div id="geral">
+ <h1>Conversor de Moeda</h1>
+    <select id="txtopcao">
+        <option value="0">Selecione a moeda:</option>
+        <option value="1">Real para Dólar</option>
+        <option value="2">Real para Euro</option>
+    </select>
+    <label for="text">Informe um valor em Real:</label>
+    <input type="number" id="real" name="real">
+    <button onclick="converter()">Converter</button>
+    <div id="resultado"></div>
+</div>
+</body>
